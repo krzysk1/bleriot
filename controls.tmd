@@ -1,6 +1,63 @@
 <[file][][]
     <[modelmanager][][]
         <[pointer_list_tmcontrol][ControlObjects][]
+		
+            // stick		
+            <[control_input][ElevatorTravel][]
+                <[uint32][InputID][ServoElevator.Output]>
+                <[float64][Scaling][1.5]>
+            >
+            <[control_input][AileronTravel][]
+                <[uint32][InputID][ServoStickAileron.Output]>
+                <[float64][Scaling][0.15]>
+            >
+            <[control_rotation][ElevatorTransform][]
+                <[string8][Input][ElevatorTravel.Output]>
+                <[tmvector3d][Axis][0.0 1.0 0.0]>
+                <[tmvector3d][Pivot][-0.6167 -0.0771 -0.2181]>
+            >
+            <[control_rotation][StickTransform][]
+                <[string8][Input][AileronTravel.Output]>
+                <[tmvector3d][Axis][ 1.0 0.0 0.0]>
+                <[tmvector3d][Pivot][-0.6167 -0.0771 -0.2181]>
+                <[string8][InputTransform][ElevatorTransform.Output]>
+            >
+            <[control_cylinder][StickGrip][114]
+                <[string8][Type][stick]>
+                <[vector3_float64][R0][-0.7029  -0.07727 0.4022]>
+                <[matrix3_float64][B0][ 0.0  0.0  1.0  0.0  1.0  0.0 -1.0  0.0 0.0 ]>
+                <[vector3_float64][Direction][ 1.0  0.0 0.0 ]>
+                <[vector3_float64][Direction2][ 0.0 -1.0 0.0 ]>
+                <[float64][StepDistance][0.00005]>
+                <[string8][InputTransform][StickTransform.Output]>
+                <[control_message][OnStep][]
+                    <[string8][Message][Controls.Pitch.Input]>
+                    <[string8][Qualifiers][step]>
+                    <[float64][Value][0.0004]>
+                >
+                <[control_message][OnRotate][]
+                    <[string8][Message][Controls.Roll.Input]>
+                    <[string8][Qualifiers][step]>
+                    <[float64][Value][15.0]>
+                >
+                <[float64][Radius][0.018]>
+                <[float64][Length][0.1209]>
+            >		
+			//Ignition switch (magneto)	
+			<[control_cylinder][Magnetos][14]   	//IgnitionSwitch.Output
+                <[string8][Type][switch toggle]>
+                <[vector3_float64][R0][-0.5899 -0.1233 0.4962]>
+                <[matrix3_float64][B0][ 1.0  0 0   0.0  1.0  0.0   0.0  0.0  1.0  ]>
+                <[vector3_float64][Direction][1.0 0.0 0.0 ]>
+                <[float64][StepDistance][0.002]>
+                <[control_message][OnStep][]
+                    <[string8][Message][Controls.Magnetos]>
+                    <[string8][Qualifiers][step]>
+                    <[float64][Value][1.0]>
+                >
+                <[float64][Radius][0.03]>
+                <[float64][Length][0.03]>
+            >		
         >
     >
 >
