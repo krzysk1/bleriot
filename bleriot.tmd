@@ -1299,7 +1299,7 @@
                 <[string8][InputPitch][RPMPitch500.Output]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][VelocityID][Fuselage.V]>
-                <[string8][SoundFile][camel_idle_int.wav]>
+                <[string8][SoundFile][engn1_INN.wav]>
                 <[bool][External][false]>
             >
             <[soundloop][RPMVolume1300LoopIntern][]
@@ -1307,7 +1307,7 @@
                 <[string8][InputPitch][RPMPitch1300.Output]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][VelocityID][Fuselage.V]>
-                <[string8][SoundFile][camel_full_throttle_int.wav]>
+                <[string8][SoundFile][engn1_INN.wav]>
                 <[bool][External][false]>
             >
             <[soundloop][RPMVolume500LoopExtern][]
@@ -1315,7 +1315,7 @@
                 <[string8][InputPitch][RPMPitch500.Output]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][VelocityID][Fuselage.V]>
-                <[string8][SoundFile][camel_idle_ext.wav]>
+                <[string8][SoundFile][engn1.wav]>
                 <[bool][Internal][false]>
             >
             <[soundloop][RPMVolume1300LoopExtern][]
@@ -1323,7 +1323,7 @@
                 <[string8][InputPitch][RPMPitch1300.Output]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][VelocityID][Fuselage.V]>
-                <[string8][SoundFile][camel_full_throttle_ext.wav]>
+                <[string8][SoundFile][engn1.wav]>
                 <[bool][Internal][false]>
             >
             <[soundmapping][EngineStartMapping][]
@@ -1392,7 +1392,7 @@
                 <[string8][InputPitch][GroundRollPitchLeft.Output]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][VelocityID][Fuselage.V]>
-                <[string8][SoundFile][ground_roll_h.wav]>
+                <[string8][SoundFile][ground_roll.wav]>
             >
             <[soundinput][GroundRollLoadRight][]
                 <[uint32][InputID][GroundRollLoadRight.Output]>
@@ -1421,7 +1421,7 @@
                 <[string8][InputPitch][GroundRollPitchRight.Output]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][VelocityID][Fuselage.V]>
-                <[string8][SoundFile][ground_roll_h.wav]>
+                <[string8][SoundFile][ground_roll.wav]>
             >
         >
     >
