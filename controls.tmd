@@ -43,8 +43,8 @@
                 <[float64][Radius][0.018]>
                 <[float64][Length][0.1209]>
             >		
-			//Ignition switch (magneto)	
-			<[control_cylinder][Magnetos][14]   	//IgnitionSwitch.Output
+			// Ignition switch (magneto)	
+			<[control_cylinder][Magnetos][14] 
                 <[string8][Type][switch toggle]>
                 <[vector3_float64][R0][-0.5899 -0.1233 0.4962]>
                 <[matrix3_float64][B0][ 1.0  0 0   0.0  1.0  0.0   0.0  0.0  1.0  ]>

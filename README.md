@@ -10,12 +10,4 @@ Some features may not work as intended and this aircraft could crash your Aerofl
 
 Installation
 
-1. Unzip file and move the folder "bleriot_xi" to C:\Users\~\Documents\aerofly FS\aircraft.
-2. Copy all sound files (*.tsb) from "camel" plane from aeroflyFS instalation dictionary to "bleriot_xi" folder mentioned above.
-3. Copy also two sound files from "discus" plane to this same folder:
-
-	discus_start_ext.tsb
-	discus_start_int.tsb
-
-Tip:
-GliderEngine button - start/stop of engine
+1. Unzip file and move the folder "bleriot" to C:\Users\~\Documents\Aerofly FS2\aircraft.
