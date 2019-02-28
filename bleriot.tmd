@@ -500,7 +500,7 @@
             <[input_control][AileronInput][]
                 <[string8][Input][Controls.Roll.Input]>
                 <[tmvector2d][Range][ -1.0 1.0 ]>				
-            >
+            >			
             <[input_default][ElevatorTrim][]
                 <[string8][Input][Controls.Trim]>
                 <[uint][Positions][201]>
@@ -525,10 +525,45 @@
             <[output_free][ElevatorTrimOutput][]
                 <[string8][Input][ElevatorTrim.Output]>
             >
+            <[input_default][AileronTrim][]
+                <[string8][Input][Controls.AileronTrim]>
+                <[uint][Positions][401]>
+                <[tmvector2d][Range][ -1.0 1.0 ]>
+                <[float64][Value][0.0]>
+                <[float64][Speed][0.1]>
+            >
+            <[mixlinear][AileronTrimmedMix][]
+                <[string8][Input0][AileronInput.Output]>
+                <[string8][Input1][AileronTrim.Output]>
+                <[float64][Weight0][1.0]>
+                <[float64][Weight1][0.2]>
+                <[float64][Offset][0.0]>
+            >
+            <[clamp][AileronTrimmed][]
+                <[string8][Input][AileronTrimmedMix.Output]>
+                <[tmvector2d][Range][ -1.0 1.0 ]>
+            >			
             <[input_control][RudderInput][]
                 <[string8][Input][Controls.Yaw.Input]>
                 <[tmvector2d][Range][ -1.0 1.0 ]>				
             >
+            <[input_default][RudderTrimInput][]
+                <[string8][Input][Controls.RudderTrim]>
+                <[uint][Positions][101]>
+                <[tmvector2d][Range][ -1.0 1.0 ]>
+                <[float64][Speed][0.3]>
+            >
+            <[mixlinear][RudderTrimmedMix][]
+                <[string8][Input0][RudderInput.Output]>
+                <[string8][Input1][RudderTrimInput.Output]>
+                <[float64][Weight0][1.0]>
+                <[float64][Weight1][0.2]>
+                <[float64][Offset][0.0]>
+            >
+            <[clamp][RudderTrimmed][]
+                <[string8][Input][RudderTrimmedMix.Output]>
+                <[tmvector2d][Range][ -1.0 1.0 ]>
+            >			
             <[input_default][BrakeInput][]
                 <[string8][Input][Controls.WheelBrake]>
             >
@@ -542,7 +577,7 @@
             // Servos
 
             <[servoclassic][ServoLeftAileron][]
-                <[string8][Input][AileronInput.Output]>
+                <[string8][Input][AileronTrimmed.Output]>
                 <[float64][Speed][10.0]>
                 <[float64][P0][0.0]>
                 <[float64][P1][0.026180]>
@@ -553,7 +588,7 @@
                 <[string8][Input][ServoLeftAileron.Output]>
             >			
             <[servoclassic][ServoRightAileron][]
-                <[string8][Input][AileronInput.Output]>
+                <[string8][Input][AileronTrimmed.Output]>
                 <[float64][Speed][10.0]>
                 <[float64][P0][0.0]>
                 <[float64][P1][-0.026180]>
@@ -564,7 +599,7 @@
                 <[string8][Input][ServoRightAileron.Output]>
             >				
             <[servoclassic][ServoLeftAileron2][]
-                <[string8][Input][AileronInput.Output]>
+                <[string8][Input][AileronTrimmed.Output]>
                 <[float64][Speed][10.0]>
                 <[float64][P0][0.0]>
                 <[float64][P1][0.05236]>
@@ -575,7 +610,7 @@
                 <[string8][Input][ServoLeftAileron2.Output]>
             >			
             <[servoclassic][ServoRightAileron2][]
-                <[string8][Input][AileronInput.Output]>
+                <[string8][Input][AileronTrimmed.Output]>
                 <[float64][Speed][10.0]>
                 <[float64][P0][0.0]>
                 <[float64][P1][-0.05236]>
@@ -597,7 +632,7 @@
                 <[string8][Input][ServoElevator.Output]>
             >			
             <[servoclassic][ServoRudder][]
-                <[string8][Input][RudderInput.Output]>
+                <[string8][Input][RudderTrimmed.Output]>
                 <[float64][Speed][10.0]>
                 <[float64][P0][0.0]>
                 <[float64][P1][0.523599]>
@@ -1322,7 +1357,7 @@
                 <[string8][InputPitch][RPMPitch500.Output]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][VelocityID][Fuselage.V]>
-                <[string8][SoundFile][engn1_INN.wav]>
+                <[string8][SoundFile][engn1.wav]>
                 <[bool][External][false]>
             >
             <[soundloop][RPMVolume1300LoopIntern][]
@@ -1330,7 +1365,7 @@
                 <[string8][InputPitch][RPMPitch1300.Output]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][VelocityID][Fuselage.V]>
-                <[string8][SoundFile][engn1_INN.wav]>
+                <[string8][SoundFile][engn1.wav]>
                 <[bool][External][false]>
             >
             <[soundloop][RPMVolume500LoopExtern][]
