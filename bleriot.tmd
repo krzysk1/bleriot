@@ -1,4 +1,12 @@
 <[file][][]
+
+	//-------------------------------------
+	// Plane: Blériot XI
+	// Compilation: krzysk(at)wp.pl
+	// 3D model: Chris34 (edit-poly.com)
+	// Date: Mon Mar 30 2015; Feb 2019
+	//-------------------------------------
+
     <[modelmanager][][]
         <[pointer_list_tmuniverse][DynamicObjects][]
             <[telemetry][Telemetry][]
