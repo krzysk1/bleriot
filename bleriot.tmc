@@ -4,7 +4,7 @@
         <[vec32array][ContactSpheres][ (0.2851 0.7023 -1.0041 0.352) (0.2777 -0.8743 -1.0041 0.352) (-3.886 -0.0567 -0.7293 0.262) ]>
         <[string8][DisplayName][Blériot XI]>
         <[string8][DescriptionTextEN][The Blériot XI is the aircraft that was used by Louis Blériot on 25 July 1909 to make the first flight across the English Channel made in a heavier-than-air aircraft.
-		For Aerofly FS2 made by Krzysztof Kaniewski. Original 3D model created by Chris34 (edit-poly.com).]>
+For Aerofly FS2 made by Krzysztof Kaniewski. Original 3D model created by Chris34 (edit-poly.com).]>
 		<[float64][WingSpan][8.4]>
 		<[float64][Mass][272]>
 		<[float64][MaximumSpeed][28.2]>
