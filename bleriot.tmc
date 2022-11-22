@@ -1,31 +1,20 @@
-ï»¿<[file][][]
-    <[object][][]
-        <[int][Version][210]>
-        <[vec32array][ContactSpheres][ (0.2851 0.7023 -1.0041 0.352) (0.2777 -0.8743 -1.0041 0.352) (-3.886 -0.0567 -0.7293 0.262) ]>
-        <[string8][DisplayName][BlÃ©riot XI]>
-        <[string8][DescriptionTextEN][The BlÃ©riot XI is the aircraft that was used by Louis BlÃ©riot on 25 July 1909 to make the first flight across the English Channel made in a heavier-than-air aircraft.
-For Aerofly FS2 made by Krzysztof Kaniewski. Original 3D model created by Chris34 (edit-poly.com).]>
-		<[float64][WingSpan][8.4]>
-		<[float64][Mass][272]>
-		<[float64][MaximumSpeed][22.5]>
-		<[float64][MinimumSpeed][13.0]>
-        <[float64][ApproachSpeed][15.0]>
-        <[float64][CruiseSpeed]  [18.0]>
-		<[tmvector2d][NormalSpeedRange][ 13.0 21.0 ]>
-		<[tmvector2d][CautionSpeedRange][ 21.0 22.5 ]>
-		<[tmvector2d][FlapSpeedRange][ 0.0 0.0 ]>
+<[file][][]    <[object][][]
+        <[int][Version][220]>        <[vec32array][ContactSpheres][ (0.2851 0.7023 -1.0041 0.352) (0.2777 -0.8743 -1.0041 0.352) (-3.886 -0.0567 -0.7293 0.262) ]>
+        <[string8][ICAO][]>        <[string8][DisplayName][Blériot XI]>
+        <[string8][DisplayNameFull][Blériot XI]>
+        <[localized_text_list][Descriptions][]            <[localized_text][][]                <[string8][Language][en]>                <[string8][Text][The Blériot XI is the aircraft that was used by Louis Blériot on 25 July 1909 to make the first flight across the English Channel made in a heavier-than-air aircraft. For Aerofly FS2 made by Krzysztof Kaniewski. Original 3D model created by Chris34 (edit-poly.com).]>			>
+        >        <[float64][MaximumTakeoffMass][300.0]>				<[float64][WingSpan]          [8.4]>
+		<[float64][MaximumAirspeed]   [22.5]>		<[float64][MaximumSpeed]      [22.5]>		
+		<[float64][MinimumAirspeed]   [13.0]>
+        <[float64][ApproachAirspeed]  [15.0]>
+        <[float64][CruiseAirspeed]    [18.0]>        <[float64][CruiseSpeed]       [18.0]>		
+		<[tmvector2d][NormalAirspeedRange][ 13.0 21.0 ]>
+		<[tmvector2d][CautionAirspeedRange][ 21.0 22.5 ]>
         <[float64][MaximumAltitude][1000.0]>
-        <[float64][CruiseAltitude] [200.0]>
-        <[float64][QSpan][8.74]>
-        <[float64][QMass][300.0]>
-        <[float64][QSpeed][22.5]>
-        <[float64][QPower][19000.0]>
-        <[float64][QThrust][0.0]>
-        <[float64][QRange][50000.0]>
-        <[float64][QRatio][0.0]>
-        <[float64][QBuild][100]>
-        <[float64][QVirgin][1909]>
-		<[bool][Airplane][true]>
-        <[string8][Pilot][]>
+        <[float64][CruiseAltitude] [200.0]>        <[float64][MaximumRange][50000.0]>		
+        <[float64][EnginePower][19000.0]>
+        <[uint][EngineCount][1]>
+        <[uint][UnitsBuilt][100]>        <[uint][Year][1909]>
+        <[string8][Tags][ historical piston airplane gear ]>        <[string8][Pilot][]>
     >
 >
