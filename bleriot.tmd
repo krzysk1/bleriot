@@ -2,7 +2,7 @@
 
 	//-------------------------------------
 	// Plane: Blériot XI for Aerofly FS4
-	// Compilation: krzysk(at)wp.pl
+	// Compilation: Krzysztof Kaniewski
 	// 3D model: Chris34 (edit-poly.com)
 	// Date: Mon Mar 30 2015; Feb 2019; Aug 2020; Nov 2022
 	//-------------------------------------
@@ -11,7 +11,7 @@
         <[pointer_list_tmuniverse][DynamicObjects][]
             <[telemetry][Telemetry][]
                 <[string8][Body][Fuselage]>
-                <[tmvector3d][LookAtPosition][ -0.2 0.0 0.0 ]>    // mass: 282.2 ( -0.229 0.0 0.163 )
+                <[tmvector3d][LookAtPosition][ -0.229 0.0 0.163 ]>
             >
 
             // Cameras
@@ -835,7 +835,7 @@
                 <[uint32][AngleID][Propeller.RotationAngle]>
                 <[uint32][RotationSpeedID][Propeller.RotationSpeed]>
                 <[uint32][DamageID][Propeller.Damaged]>
-                <[tmvector3d][Axis][ 1.0 -0.0 -0.0 ]>                <[tmvector3d][Pivot][0.9763 -0.0923 0.04045]>
+                <[tmvector3d][Axis][ 1.0 0.0 0.0 ]>                <[tmvector3d][Pivot][0.9763 -0.0923 0.04045]>
                 <[float64][Radius][1.005840]>
                 <[string8][InputPitch][0.0]>
             >
@@ -1021,7 +1021,7 @@
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
                 <[uint32][InputID][ServoRightAileron.Output]>
-                <[tmvector3d][Axis][ -1.0 -0.0 -0.0 ]>                <[tmvector3d][Pivot][-0.68255 -0.08515 -0.72645]>
+                <[tmvector3d][Axis][ -1.0 0.0 0.0 ]>                <[tmvector3d][Pivot][-0.68255 -0.08515 -0.72645]>
                 <[float64][Scaling][10.0]>
             >
             <[linkagegraphics][LeftAileronLink][]
@@ -1047,14 +1047,14 @@
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
                 <[uint32][InputID][ServoRudder.Output]>
-                <[tmvector3d][Axis][ -0.0 -0.0 1.0 ]>                <[tmvector3d][Pivot][-0.34565 -0.0795 -0.1505]>
+                <[tmvector3d][Axis][ 0.0 0.0 1.0 ]>                <[tmvector3d][Pivot][-0.34565 -0.0795 -0.1505]>
             >
             <[hingedbodygraphics][Rudder][]
                 <[string8][GeometryList][ Rudder Ruddercoverage ]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
                 <[uint32][InputID][ServoRudder.Output]>
-                <[tmvector3d][Axis][ -0.0 -0.0 1.0 ]>                <[tmvector3d][Pivot][-5.4816 -0.0537 -0.3032]>
+                <[tmvector3d][Axis][ 0.0 0.0 1.0 ]>                <[tmvector3d][Pivot][-5.4816 -0.0537 -0.3032]>
             >
             <[linkagegraphics][LeftRudderLink][]
                 <[string8][GeometryList][ LeftRudderLink ]>
@@ -1079,7 +1079,7 @@
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
                 <[uint32][InputID][ServoElevator.Output]>
-                <[tmvector3d][Axis][ -0.0 -1.0 -0.0 ]>                <[tmvector3d][Pivot][-0.61715 -0.0736 -0.1856]>
+                <[tmvector3d][Axis][ 0.0 -1.0 0.0 ]>                <[tmvector3d][Pivot][-0.61715 -0.0736 -0.1856]>
                 <[float64][Scaling][-1.0]>
             >
             <[hingedbodygraphics][ElevatorPivot2][]
@@ -1087,7 +1087,7 @@
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
                 <[uint32][InputID][ServoElevator.Output]>
-                <[tmvector3d][Axis][ -0.0 -1.0 -0.0 ]>                <[tmvector3d][Pivot][-2.0291 -0.06125 -0.1022]>
+                <[tmvector3d][Axis][ 0.0 -1.0 0.0 ]>                <[tmvector3d][Pivot][-2.0291 -0.06125 -0.1022]>
                 <[float64][Scaling][-1.0]>
             >
             <[hingedbodygraphics][ElevatorPivot3][]
@@ -1095,7 +1095,7 @@
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
                 <[uint32][InputID][ServoElevator.Output]>
-                <[tmvector3d][Axis][ -0.0 -1.0 -0.0 ]>                <[tmvector3d][Pivot][-2.7815 -0.1908 -0.016]>
+                <[tmvector3d][Axis][ 0.0 -1.0 0.0 ]>                <[tmvector3d][Pivot][-2.7815 -0.1908 -0.016]>
                 <[float64][Scaling][-1.0]>
             >
             <[hingedbodygraphics][ElevatorPivot4][]
@@ -1103,7 +1103,7 @@
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
                 <[uint32][InputID][ServoElevator.Output]>
-                <[tmvector3d][Axis][ -0.0 -1.0 -0.0 ]>                <[tmvector3d][Pivot][-4.6220 0.0 -0.1784]>
+                <[tmvector3d][Axis][ 0.0 -1.0 0.0 ]>                <[tmvector3d][Pivot][-4.6220 0.0 -0.1784]>
                 <[float64][Scaling][-1.0]>
             >
             <[linkagegraphics][ElevatorLink1][]
@@ -1135,7 +1135,7 @@
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
                 <[uint32][InputID][ServoElevator.Output]>
-                <[tmvector3d][Axis][ -0.0 -1.0 -0.0 ]>                <[tmvector3d][Pivot][-4.9483 0.0 -0.1749]>
+                <[tmvector3d][Axis][ 0.0 -1.0 0.0 ]>                <[tmvector3d][Pivot][-4.9483 0.0 -0.1749]>
             >
             <[movinggraphics][ThrottleLever][]
                 <[string8][GeometryList][ Throttlelever ]>
@@ -1157,7 +1157,7 @@
             >
             <[graphics_rotation][StickElevatorRotate][]
                 <[string8][Input][StickElevatorMapping.Output]>
-                <[tmvector3d][Axis][ -0.0 -1.0 -0.0 ]>                <[tmvector3d][Pivot][-0.6167 -0.0771 -0.2181]>
+                <[tmvector3d][Axis][ 0.0 -1.0 0.0 ]>                <[tmvector3d][Pivot][-0.6167 -0.0771 -0.2181]>
             >
             <[graphics_input][AileronInput][]
                 <[uint32][InputID][ServoLeftAileron.Output]>
@@ -1169,7 +1169,7 @@
             >
             <[graphics_rotation][StickRotate][]
                 <[string8][Input][StickAileronMapping.Output]>
-                <[tmvector3d][Axis][ -1.0 -0.0 -0.0 ]>                <[tmvector3d][Pivot][-0.6167 -0.0771 -0.2181]>
+                <[tmvector3d][Axis][ -1.0 0.0 0.0 ]>                <[tmvector3d][Pivot][-0.6167 -0.0771 -0.2181]>
                 <[string8][InputTransform][StickElevatorRotate.Output]>
             >
             <[rigidbodygraphics][Stick][]
@@ -1183,7 +1183,7 @@
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
                 <[uint32][InputID][ThrottleCut.Output]>
-                <[tmvector3d][Axis][ -0.0 -1.0 -0.0 ]>                <[tmvector3d][Pivot][-0.5899 -0.1233 0.4962]>
+                <[tmvector3d][Axis][ 0.0 -1.0 0.0 ]>                <[tmvector3d][Pivot][-0.5899 -0.1233 0.4962]>
                 <[float64][Scaling][1.0]>
             >
 
@@ -1261,8 +1261,8 @@
                 <[string8][GeometryList][ TailGearsupport2 ]>
                 <[string8][Graphics0][Fuselage]>
                 <[string8][Graphics1][TailGear]>
-                <[tmvector3d][Joint0][-4.5814 -0.0 -0.1535]>
-                <[tmvector3d][Joint1][-3.8929 -0.0 -0.7227]>
+                <[tmvector3d][Joint0][-4.5814 0.0 -0.1535]>
+                <[tmvector3d][Joint1][-3.8929 0.0 -0.7227]>
                 <[uint32][AttachTo][2]>
             >
             <[torsionlinkgraphics][TailGearSupport][]
@@ -1270,18 +1270,18 @@
                  <[string8][Graphics0][Fuselage]>
                  <[string8][Graphics1][TailGear]>
                  <[tmvector3d][Joint0][-3.8929 0.0 0.0558]>
-                 <[tmvector3d][Joint1][-3.8929 -0.0 -0.7227]>
-                 <[tmvector3d][Joint2][-3.57975 -0.0 0.0258]>
+                 <[tmvector3d][Joint1][-3.8929 0.0 -0.7227]>
+                 <[tmvector3d][Joint2][-3.57975 0.0 0.0258]>
                  <[tmvector3d][Axis][0.0 1.0 0.0]>
                  <[uint32][AttachTo][1]>
             >
             <[linkagegraphics][TailSpring][]
                 <[string8][GeometryList][Tailspring]>
-                <[string8][Graphics1][Fuselage]>
                 <[string8][Graphics0][Fuselage]>
-                <[tmvector3d][Joint1][-3.51 -0.0922 0.3351]>
-                <[tmvector3d][Joint0][-3.5618 -0.0922 0.0465]>
-                <[uint32][AttachTo][0]>
+                <[string8][Graphics1][TailGear]>
+                <[tmvector3d][Joint0][-3.561 -0.0591 0.3409]>
+                <[tmvector3d][Joint1][-3.561 -0.0591 -0.3985]>  
+                <[uint32][AttachTo][2]>
     		>
             <[graphics_wheel][TailWheel][]
                 <[string8][GeometryList][ TailWheel Tailtire ]>
