@@ -1,5 +1,5 @@
 # bleriot
-This is free add-on for aerofly FS4 developed by Krzysztof Kaniewski
+This is free add-on for aerofly FS4 created by Krzysztof Kaniewski
 
 The Blériot XI is the aircraft that was used by Louis Blériot on 25 July 1909 to make the first flight across the English Channel made in a heavier-than-air aircraft.
 
@@ -9,6 +9,10 @@ Usage Rights: Non-commercial use only: The displayed work or file cannot be used
 
 Some features may not work as intended and this aircraft could crash your Aerofly FS4. Use it at your own risk!
 
-Installation
+# Installation
 
-1. Unzip file and move the folder "bleriot" to C:\Users\~\Documents\Aerofly FS4\aircraft.
+1. Unzip file and move the folder "bleriot" into the C:\Users\~\Documents\Aerofly FS 4\aircraft folder.
+
+# Uninstall
+
+1. Delete the folder "bleriot".
