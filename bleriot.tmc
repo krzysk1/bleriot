@@ -1,20 +1,14 @@
 <[file][][]    <[object][][]
-        <[int][Version][220]>        <[vec32array][ContactSpheres][ (0.2851 0.7023 -1.0041 0.352) (0.2777 -0.8743 -1.0041 0.352) (-3.886 -0.0567 -0.7293 0.262) ]>
+        <[int][Version][220]>        <[vec32array][ContactSpheres][ (0.285 0.702 -1.004 0.352) (0.277 -0.874 -1.004 0.352) (-3.886 -0.056 -0.729 0.262) ]>
         <[string8][ICAO][]>        <[string8][DisplayName][Blériot XI]>
         <[string8][DisplayNameFull][Blériot XI]>
-        <[localized_text_list][Descriptions][]            <[localized_text][][]                <[string8][Language][en]>                <[string8][Text][The Blériot XI is the aircraft that was used by Louis Blériot on 25 July 1909 to make the first flight across the English Channel made in a heavier-than-air aircraft. For Aerofly FS2 made by Krzysztof Kaniewski. Original 3D model created by Chris34 (edit-poly.com).]>			>
-        >        <[float64][MaximumTakeoffMass][300.0]>				<[float64][WingSpan]          [8.4]>
+        <[localized_text_list][Descriptions][]            <[localized_text][][]                <[string8][Language][en]>                <[string8][Text][The Blériot XI is the aircraft that was used by Louis Blériot on 25 July 1909 to make the first flight across the English Channel made in a heavier-than-air aircraft. For Aerofly FS4 made by Krzysztof Kaniewski. Original 3D model created by Chris34 (edit-poly.com).]>			>            <[localized_text][][]                <[string8][Language][de]>                <[string8][Text][Das Blériot XI ist das Flugzeug, das von Louis Blériot am 25. Juli 1909 verwendet wurde, um den ersten Flug über den Ärmelkanal mit einem schwerer als Luftfahrzeug zu absolvieren. Für Aerofly FS4 erstellt von Krzysztof Kaniewski. Ursprüngliches 3D-Modell erstellt von Chris34 (edit-poly.com).]>			>			
+        >        <[float64][MaximumTakeoffMass][300.0]>				<[float64][WingSpan]          [8.4]>        <[uint]   [EngineCount]       [1]>        <[uint]   [UnitsBuilt]        [100]>        <[uint]   [Year]              [1909]>        <[float64][MaximumAltitude]   [1000.0]>        <[float64][CruiseAltitude]    [200.0]>        <[float64][MaximumRange]      [50000.0]>		        <[float64][EnginePower]       [19000.0]>		
 		<[float64][MaximumAirspeed]   [22.5]>		<[float64][MaximumSpeed]      [22.5]>		
 		<[float64][MinimumAirspeed]   [13.0]>
         <[float64][ApproachAirspeed]  [15.0]>
-        <[float64][CruiseAirspeed]    [18.0]>        <[float64][CruiseSpeed]       [18.0]>		
-		<[tmvector2d][NormalAirspeedRange][ 13.0 21.0 ]>
+        <[float64][CruiseAirspeed]    [18.0]>        <[float64][CruiseSpeed]       [18.0]>        <[tmvector2d][FlapAirspeedRange]   [  0.0  0.0 ]>		
+		<[tmvector2d][NormalAirspeedRange] [ 13.0 21.0 ]>
 		<[tmvector2d][CautionAirspeedRange][ 21.0 22.5 ]>
-        <[float64][MaximumAltitude][1000.0]>
-        <[float64][CruiseAltitude] [200.0]>        <[float64][MaximumRange][50000.0]>		
-        <[float64][EnginePower][19000.0]>
-        <[uint][EngineCount][1]>
-        <[uint][UnitsBuilt][100]>        <[uint][Year][1909]>
-        <[string8][Tags][ historical piston airplane gear ]>        <[string8][Pilot][]>
-    >
->
+        <[string8][Tags][ airplane historical piston gear tailgear ]>
+        <[string8][Pilot][pilot_peter]>    >>
