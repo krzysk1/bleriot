@@ -489,6 +489,19 @@
                 <[string8][Input][ThrottleInput.Output]>
                 <[string8][Message][Aircraft.Throttle]>
             >
+            <[sender][SenderEngineThrottle1][]
+                <[string8][Input][ThrottleInput.Output]>
+                <[string8][Message][Aircraft.EngineThrottle1]>
+            >
+            <[product][NormalizedPropellerSpeed][]
+                <[string8][Inputs][ DriveShaft.RotationSpeed 0.007142 ]>
+            >
+            <[sender][SenderPower][]
+                <[string8][Input][NormalizedPropellerSpeed.Output]>
+                <[string8][Message][Aircraft.Power]>
+                <[string8][Qualifiers][ normalized ]>
+            >
+					
             <[input_switch][EngineInput][]
                 <[string8][Message][Controls.Magnetos]>
                 <[string8][Events][ SwitchSound.Trigger ]>
