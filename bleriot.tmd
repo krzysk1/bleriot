@@ -24,7 +24,7 @@
             <[camera_head][CameraPilot][]
                 <[string8][Tags][cockpit pilot]>
                 <[string8][Body][Fuselage]>
-                <[tmvector3d][R0][ -1.2860 0.0 0.9144 ]>
+                <[tmvector3d][R0][ -0.97 -0.07 0.91 ]>
                 <[tmvector3d][Direction][ 1.0 0.0 0.0 ]>
                 <[float64][Kf][40.0]>
                 <[float64][Df][1.00]>
@@ -985,7 +985,7 @@
                 <[string8][Graphics1][RightWing]>
                 <[tmvector3d][Joint0][0.3773 -0.0948 1.0851]>
                 <[tmvector3d][Joint1][0.2843 -3.3516 0.7582]>
-                <[uint32][AttachTo][2]>
+                <[uint32][AttachTo][0]>
             >
             <[linkagegraphics][RightWingLink4][]
                 <[string8][GeometryList][ RightWingLink4 ]>
@@ -1015,16 +1015,16 @@
                 <[string8][GeometryList][ RightWingLink7 ]>
                 <[string8][Graphics0][Fuselage]>
                 <[string8][Graphics1][RightWing]>
-                <[tmvector3d][Joint1][0.3784 -0.0947 1.0860]>
-                <[tmvector3d][Joint0][0.2880 -1.7487 0.6104]>
+                <[tmvector3d][Joint0][0.3758 -0.0951 1.0880]>
+                <[tmvector3d][Joint1][0.2851 -1.7490 0.6118]>
     			<[uint32][AttachTo][2]>
             >
             <[linkagegraphics][RightWingLink8][]
                 <[string8][GeometryList][ RightWingLink8 ]>
                 <[string8][Graphics0][Fuselage]>
                 <[string8][Graphics1][RightWing]>
-                <[tmvector3d][Joint1][0.7569 -0.8979 -0.6874]>
-                <[tmvector3d][Joint0][0.2836 -1.7384 0.6141 ]>
+                <[tmvector3d][Joint0][0.7569 -0.8979 -0.6874]>
+                <[tmvector3d][Joint1][0.2836 -1.7384 0.6141 ]>
                  <[uint32][AttachTo][2]>
             >
 
