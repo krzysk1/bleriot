@@ -1167,8 +1167,8 @@
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
                 <[uint32][InputID][ServoThrottle.Output]>
-                <[tmvector3d][Axis][0.03 0.0 0.0]>
-                <[float64][Scaling][1.0]>
+                <[tmvector3d][Axis][1.0 0.0 0.0]>
+                <[float64][Scaling][0.03]>
             >
 
 			// Stick
