@@ -21,7 +21,7 @@
                 <[control_message][OnStep][]
                     <[string8][Message][Controls.Throttle1]>
                     <[string8][Qualifiers][step]>
-                    <[float64][Value][1.0]>
+                    <[float64][Value][0.02]>
                 >
                 <[tmvector3d][Dimensions][0.0196 0.0863 0.0111]>
             >		
@@ -63,7 +63,7 @@
                     <[string8][Qualifiers][step]>
                     <[float64][Value][15.0]>
                 >
-                <[float64][Radius][0.018]>
+                <[float64][Radius][0.0142]>
                 <[float64][Length][0.1209]>
             >
 			<[control_cylinder][StickRingGrip][]
