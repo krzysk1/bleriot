@@ -34,7 +34,6 @@
         <[float64][ApproachAirspeed]  [15.0]>
         <[float64][CruiseAirspeed]    [18.0]>
         <[float64][CruiseSpeed]       [18.0]>
-        <[vector2_float64][FlapAirspeedRange]   [  0.0  0.0 ]>
 		<[vector2_float64][NormalAirspeedRange] [ 13.0 21.0 ]>
 		<[vector2_float64][CautionAirspeedRange][ 21.0 22.5 ]>
         <[string8][Tags][ airplane historical piston gear tailgear ]>
