@@ -15,6 +15,18 @@
                 <[string8][Text][Das Blériot XI ist das Flugzeug, das von Louis Blériot am 25. Juli 1909 verwendet wurde, um den ersten Flug über den Ärmelkanal mit einem schwerer als Luftfahrzeug zu absolvieren. Für Aerofly FS4 erstellt von Krzysztof Kaniewski. Ursprüngliches 3D-Modell erstellt von Chris34 (edit-poly.com).]>
 			>
             <[localized_text][element][2]
+                <[string8u][Language][fr]>
+                <[string8][Text][Le Blériot XI est l'avion utilisé par Louis Blériot le 25 juillet 1909 pour effectuer la première traversée de la Manche à bord d'un aéronef plus lourd que l'air. Pour Aerofly FS4, créé par Krzysztof Kaniewski. Modèle 3D original créé par Chris34 (edit-poly.com).]>
+			>
+            <[localized_text][element][3]
+                <[string8u][Language][es]>
+                <[string8][Text][El Blériot XI es el avión que utilizó Louis Blériot el 25 de julio de 1909 para realizar el primer vuelo sobre el canal de la Mancha en un avión más pesado que el aire. Para Aerofly FS4, creado por Krzysztof Kaniewski. Modelo 3D original creado por Chris34 (edit-poly.com).]>
+			>
+            <[localized_text][element][4]
+                <[string8u][Language][it]>
+                <[string8][Text][Il Blériot XI è l'aereo utilizzato da Louis Blériot il 25 luglio 1909 per compiere il primo volo attraverso la Manica con un velivolo più pesante dell'aria. Per Aerofly FS4 realizzato da Krzysztof Kaniewski. Modello 3D originale creato da Chris34 (edit-poly.com).]>
+			>
+            <[localized_text][element][5]
                 <[string8u][Language][pl]>
                 <[string8][Text][Blériot XI to samolot, którym Louis Blériot 25 lipca 1909 roku dokonał pierwszego przelotu nad kanałem La Manche samolotem cięższym od powietrza. Dla Aerofly FS4 wykonany przez Krzysztofa Kaniewskiego. Oryginalny model 3D stworzony przez Chris34 (edit-poly.com).]>
 			>
@@ -34,6 +46,7 @@
         <[float64][ApproachAirspeed]  [15.0]>
         <[float64][CruiseAirspeed]    [18.0]>
         <[float64][CruiseSpeed]       [18.0]>
+        <[vector2_float64][FlapAirspeedRange]   [  0.0  0.0 ]>
 		<[vector2_float64][NormalAirspeedRange] [ 13.0 21.0 ]>
 		<[vector2_float64][CautionAirspeedRange][ 21.0 22.5 ]>
         <[string8][Tags][ airplane historical piston gear tailgear ]>
