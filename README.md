@@ -1,4 +1,7 @@
 # bleriot
+
+**MODEL COMPLETED - NO FURTHER DEVELOPMENT IS PLANNED**
+
 This is free add-on for aerofly FS4 created by Krzysztof Kaniewski
 
 The Blériot XI is the aircraft that was used by Louis Blériot on 25 July 1909 to make the first flight across the English Channel made in a heavier-than-air aircraft.
