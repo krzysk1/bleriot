@@ -1,9 +1,12 @@
 <[file][][]
     <[hints][][]
         // Bleriot
-        <[float64][MaximumTakeOffMass][300.0]>
+        <[float64][MaximumTakeoffMass][300.0]>
+        <[float64][DefaultGrossMass][300.0]>
         <[float64][WingSpan][8.4]>
         <[float64][WingArea][21.46]>
+        <[float64][LEMAC][0.73953]>
+        <[float64][MAC][2.269]>
         <[float64][HeightOffset][-1.004]>
         <[float64][ApproachSpeed][15.0]>
         <[float64][PatternSpeed][17.0]>

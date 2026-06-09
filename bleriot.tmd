@@ -781,11 +781,8 @@
                 <[string8][Input][PitotTube.AngleOfAttack]>
                 <[string8][Message][Aircraft.AngleOfAttack]>
             >
-            <[input_default][PressureSettingPilot][]
+            <[input_pressure_setting][PressureSettingPilot][]
                 <[string8][Message][PressureSettingPilot]>
-                <[uint][Positions][201]>
-                <[tmvector2d][Range][ 95000.0 105000.0 ]>
-                <[float64][Value][101325.0]>
             >
             <[output_free][PressureSettingPilotOutput][]
                 <[string8][Input][PressureSettingPilot.Output]>
@@ -1174,7 +1171,7 @@
 			// Stick
             <[graphics_input][ElevatorInput][]
                 <[uint32][InputID][ServoElevator.Output]>
-                <[float64][Scaling][-2.0]>
+                <[float64][Scaling][2.0]>
             >
             <[graphics_linear_interpolation][StickElevatorMapping][]
                 <[string8][Input][ElevatorInput.Output]>
@@ -1182,7 +1179,7 @@
             >
             <[graphics_rotation][StickElevatorRotate][]
                 <[string8][Input][StickElevatorMapping.Output]>
-                <[tmvector3d][Axis][ 0.0 -1.0 0.0 ]>
+                <[tmvector3d][Axis][ 0.0 1.0 0.0 ]>
                 <[tmvector3d][Pivot][-0.6167 -0.0771 -0.2181]>
             >
             <[graphics_input][AileronInput][]
@@ -3445,7 +3442,7 @@
                 <[string8][InputPitch][RPMPitch500.Output]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][VelocityID][Fuselage.V]>
-                <[string8][SoundFile][engn1.wav]>
+                <[string8][SoundFile][prop1.wav]>
                 <[bool][External][false]>
                 <[tmvector3d][R0][0.9 0.0 0.0]>
             >
@@ -3463,7 +3460,7 @@
                 <[string8][InputPitch][RPMPitch500.Output]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][VelocityID][Fuselage.V]>
-                <[string8][SoundFile][engn1.wav]>
+                <[string8][SoundFile][prop1.wav]>
                 <[bool][Internal][false]>
                 <[tmvector3d][R0][0.9 0.0 0.0]>
             >

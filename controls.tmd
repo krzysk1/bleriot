@@ -28,15 +28,15 @@
             // stick		
             <[control_input][ElevatorTravel][]
                 <[uint32][InputID][ServoElevator.Output]>
-                <[float64][Scaling][1.5]>
+                <[float64][Scaling][2.0]>
             >
             <[control_input][AileronTravel][]
-                <[uint32][InputID][ServoStickAileron.Output]>
-                <[float64][Scaling][0.15]>
+                <[uint32][InputID][ServoLeftAileron.Output]>
+                <[float64][Scaling][20.0]>
             >
             <[control_rotation][ElevatorTransform][]
                 <[string8][Input][ElevatorTravel.Output]>
-                <[tmvector3d][Axis][0.0 1.0 0.0]>
+                <[tmvector3d][Axis][ 0.0 1.0 0.0 ]>
                 <[tmvector3d][Pivot][-0.6167 -0.0771 -0.2181]>
             >
             <[control_rotation][StickTransform][]

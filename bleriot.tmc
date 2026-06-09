@@ -31,21 +31,22 @@
                 <[string8][Text][Blériot XI to samolot, którym Louis Blériot 25 lipca 1909 roku dokonał pierwszego przelotu nad kanałem La Manche samolotem cięższym od powietrza. Dla Aerofly FS4 wykonany przez Krzysztofa Kaniewskiego. Oryginalny model 3D stworzony przez Chris34 (edit-poly.com).]>
 			>
         >
-        <[float64][MaximumTakeoffMass][300.0]>
-		<[float64][WingSpan]          [8.4]>
-        <[uint32] [EngineCount]       [1]>
-        <[uint32] [UnitsBuilt]        [100]>
-        <[uint32] [Year]              [1909]>
-        <[float64][MaximumAltitude]   [1000.0]>
-        <[float64][CruiseAltitude]    [200.0]>
-        <[float64][MaximumRange]      [50000.0]>
-        <[float64][EnginePower]       [19000.0]>
-		<[float64][MaximumAirspeed]   [22.5]>
-		<[float64][MaximumSpeed]      [22.5]>
-		<[float64][MinimumAirspeed]   [13.0]>
-        <[float64][ApproachAirspeed]  [15.0]>
-        <[float64][CruiseAirspeed]    [18.0]>
-        <[float64][CruiseSpeed]       [18.0]>
+        <[float64][MaximumTakeoffMass]   [300.0]>
+        <[uint32] [MaximumPersonsOnBoard][1]>
+		<[float64][WingSpan]             [8.4]>
+        <[uint32] [EngineCount]          [1]>
+        <[uint32] [UnitsBuilt]           [100]>
+        <[uint32] [Year]                 [1909]>
+        <[float64][MaximumAltitude]      [1000.0]>
+        <[float64][CruiseAltitude]       [200.0]>
+        <[float64][MaximumRange]         [50000.0]>
+        <[float64][EnginePower]          [19000.0]>
+		<[float64][MaximumAirspeed]      [22.5]>
+		<[float64][MaximumSpeed]         [22.5]>
+		<[float64][MinimumAirspeed]      [13.0]>
+        <[float64][ApproachAirspeed]     [15.0]>
+        <[float64][CruiseAirspeed]       [18.0]>
+        <[float64][CruiseSpeed]          [18.0]>
         <[vector2_float64][FlapAirspeedRange]   [  0.0  0.0 ]>
 		<[vector2_float64][NormalAirspeedRange] [ 13.0 21.0 ]>
 		<[vector2_float64][CautionAirspeedRange][ 21.0 22.5 ]>
